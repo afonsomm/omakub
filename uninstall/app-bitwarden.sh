@@ -1,1 +1,1 @@
-flatpak uninstall -y flathub com.bitwarden.desktop
+sudo snap remove bitwarden
