@@ -2,7 +2,7 @@
 apps=(
   "Alacritty.desktop"
   "google-chrome.desktop"
-  "com.bitwarden.desktop"
+  "bitwarden_bitwarden.desktop"
   "md.obsidian.Obsidian.desktop"
   "dropbox.desktop"
 )
@@ -12,6 +12,7 @@ installed_apps=()
 
 # Directory where .desktop files are typically stored
 desktop_dirs=(
+  "/var/lib/snapd/desktop/applications"
   "/var/lib/flatpak/exports/share/applications"
   "/usr/share/applications"
   "/usr/local/share/applications"
