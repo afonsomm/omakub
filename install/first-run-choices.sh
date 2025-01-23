@@ -1,5 +1,5 @@
 AVAILABLE_LANGUAGES=("Ruby on Rails" "Node.js" "Go" "PHP" "Python" "Julia" "Elixir" "Rust" "Java")
-SELECTED_LANGUAGES="Ruby on Rails,Julia"
+SELECTED_LANGUAGES="Ruby on Rails"
 export OMAKUB_FIRST_RUN_LANGUAGES=$(gum choose "${AVAILABLE_LANGUAGES[@]}" --no-limit --selected "$SELECTED_LANGUAGES" --height 10 --header "Select programming languages")
 
 AVAILABLE_DBS=("MySQL" "Redis" "PostgreSQL")
